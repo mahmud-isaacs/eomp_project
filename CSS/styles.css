@@ -1,0 +1,31 @@
+.imageLogo {
+    width: 40px;
+    height: 40px;
+}
+
+.cartLogo {
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    grid-row: 3;
+    text-align: center;
+    background-color: #B08B59;
+    padding: 8px;
+}
+
+.instaLogo {
+    width: 30px;
+    height: 30px;
+    align-items: end;
+    justify-content: right;
+    mix-blend-mode: multiply;
+}
+
+.twitterLogo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    mix-blend-mode: multiply;
+}
