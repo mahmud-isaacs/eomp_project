@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
+
+.containerMain {
+    background-image: linear-gradient(to bottom right, rgba(201, 179, 127, 0.5), rgba(201, 179, 127, 0.8)), url('https://mahmud-isaacs.github.io/ecomHostedImages/retroWallparer.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #D95E4C;
+}
+
+h1 {
+    color: #D95E4C;
+    font-family: 'Coda Caption', sans-serif;
+    font-weight: 800;    
+    font-size: 10rem;
+    text-shadow: 0.08em 0 black, 0.08em 0.08em black, 0 0.08em black, -0.08em 0.08em black, -0.0em 0 black, -0.08em -0.08em black, 0 -0.08em black, 0.08em -0.08em black;
+    margin-bottom: 20px;
+}
+
 .imageLogo {
     width: 40px;
     height: 40px;
@@ -28,4 +51,60 @@ footer {
     height: 30px;
     object-fit: cover;
     mix-blend-mode: multiply;
+}
+
+.cardItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.card {
+    background-color: rgba(176, 139, 89, 0.8); 
+    color: white; 
+    border: none; 
+    border-radius: 20px; 
+}
+
+.card-title {
+    color: #D95E4C;
+    text-shadow: 1px 1px 3px black; 
+}
+
+.card-body {
+    text-align: center;
+}
+
+.containerAbout {
+    background-image: linear-gradient(to bottom right, rgba(201, 179, 127, 0.5), rgba(201, 179, 127, 0.8)), url('https://mahmud-isaacs.github.io/ecomHostedImages/model.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: black;
+}
+
+h2 {
+    color: #D95E4C;
+    font-family: 'Coda Caption', sans-serif;
+    font-weight: 800;    
+    font-size: 5rem;
+    text-shadow: 0.08em 0 black, 0.08em 0.08em black, 0 0.08em black, -0.08em 0.08em black, -0.0em 0 black, -0.08em -0.08em black, 0 -0.08em black, 0.08em -0.08em black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pad {
+    padding: 20px;
+}
+
+.about-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
 }
