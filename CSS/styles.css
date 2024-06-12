@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
 
-.containerMain {
+#mainLanding {
     background-image: linear-gradient(to bottom right, rgba(201, 179, 127, 0.5), rgba(201, 179, 127, 0.8)), url('https://mahmud-isaacs.github.io/ecomHostedImages/retroWallparer.jpg');
     background-size: cover;
     background-position: center;
@@ -12,13 +12,39 @@
     color: #D95E4C;
 }
 
+.headings-container {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+
 h1 {
-    color: #D95E4C;
+    color: #5F7048;
     font-family: 'Coda Caption', sans-serif;
     font-weight: 800;    
     font-size: 10rem;
-    text-shadow: 0.08em 0 black, 0.08em 0.08em black, 0 0.08em black, -0.08em 0.08em black, -0.0em 0 black, -0.08em -0.08em black, 0 -0.08em black, 0.08em -0.08em black;
-    margin-bottom: 20px;
+    text-shadow: 0.08em 0 whitesmoke, 0.08em 0.08em whitesmoke, 0 0.08em whitesmoke, -0.08em 0.08em whitesmoke, -0.0em 0 whitesmoke, -0.08em -0.08em whitesmoke, 0 -0.08em whitesmoke, 0.08em -0.08em whitesmoke;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+#indexHeading {
+    left: 0;
+    top: 100%;
+    color: #4D7D89;
+    font-size: 3rem; 
+    text-shadow: 1px 1px 2px black;
+}
+
+.carousel-wider {
+    width: 90%;
+    height: 50%;
+}
+
+.carousel-img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
 }
 
 .imageLogo {
@@ -116,9 +142,12 @@ h2 {
     background-position: center;
 }
 
-.indexHeading {
+.nav-link {
+    color: #D95E4C;
+    margin-left: 8rem;
+}
+
+#indexTag {
     color: #d39800;
-    text-align: center;
-    font-size: 3rem; 
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 2px 2px 2px black;
 }
