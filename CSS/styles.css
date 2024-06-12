@@ -62,8 +62,11 @@ footer {
     text-align: center;
     background-color: #B08B59;
     padding: 8px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto; /* Ensures the footer is pushed to the bottom of the page */
 }
-
 .instaLogo {
     width: 30px;
     height: 30px;
@@ -134,6 +137,7 @@ h2 {
     background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 40px; /* Added margin to prevent overlap */
 }
 
 .productsPage {
