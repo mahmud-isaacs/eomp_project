@@ -1,5 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
-const cart = JSON.parse(localStorage.getItem('cart')) || [];
+const cart = JSON.parse(localStorage.getItem('cart'));
 const cartItemsContainer = document.getElementById('cartItems');
 const totalPriceElement = document.getElementById('totalPrice');
 const payButton = document.getElementById('payButton');
@@ -42,9 +41,8 @@ const clearCartButton = document.getElementById('clearCartButton');
     }
 
     
-    populateCart();
+populateCart();
 
     
-    clearCartButton.addEventListener('click', clearCart);
-    payButton.addEventListener('click', handlePayment);
-});
+clearCartButton.addEventListener('click', clearCart);
+payButton.addEventListener('click', handlePayment);
