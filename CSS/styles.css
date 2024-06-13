@@ -193,7 +193,7 @@ h2 {
     border: 2px solid #04AA6D;
 }
 
-.small-img {
+.cont-img {
     height: 40rem;
     object-fit: cover;
 }
@@ -252,4 +252,47 @@ h2 {
 
 #contactLink:hover {
     color: #839b62;
+}
+
+.center-table {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    background-color: transparent;
+    border-collapse: collapse;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 3px solid #B08B59;
+    padding: .75rem;
+    vertical-align: top;
+}
+
+.small-img {
+    width: 100px; 
+    height: auto; 
+}
+
+main {
+    padding: 2rem;
+}
+
+.addAdminbnt {
+    justify-content: left;
+    align-self: flex-end;
+    background-color: #4D7D89;
+}
+
+.adminMain {
+    background-color: antiquewhite;
 }
